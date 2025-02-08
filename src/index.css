@@ -1,0 +1,56 @@
+body {
+      margin: 0;
+      font-family: 'Inter', sans-serif; /* Modern font */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background: radial-gradient(circle, #282c34, #1e2127); /* Radial dark background */
+      color: #abb2bf; /* Lighter text color */
+    }
+
+    /* Typography */
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 600; /* Slightly bolder headings */
+    }
+
+    /* Paper elements */
+    .MuiPaper-root {
+      background-color: rgba(25, 27, 32, 0.9) !important; /* Translucent dark paper */
+      border: 1px solid rgba(38, 42, 50, 0.5); /* Subtle border */
+      backdrop-filter: blur(8px); /* Blur effect */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    }
+
+    /* Input fields */
+    .MuiInputBase-root {
+      color: #abb2bf !important;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border-color: rgba(70, 77, 88, 0.7) !important; /* Translucent border */
+    }
+
+    /* Buttons */
+    .MuiButton-containedPrimary {
+      background: linear-gradient(45deg, #50fa7b, #8be9fd) !important; /* Vibrant gradient */
+      color: #1e2127 !important; /* Dark text on button */
+      border: none !important;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+      transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+    }
+
+    .MuiButton-containedPrimary:hover {
+      transform: translateY(-2px); /* Lift on hover */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Increased shadow */
+    }
+
+    /* List items */
+    .MuiListItem-root {
+      color: #abb2bf !important;
+    }
+
+    /* App Bar */
+    .MuiAppBar-root {
+      background-color: rgba(25, 27, 32, 0.9) !important; /* Translucent app bar */
+      backdrop-filter: blur(8px); /* Blur effect */
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    }
